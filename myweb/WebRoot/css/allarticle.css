@@ -1,0 +1,56 @@
+#top-column {
+  height: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #23282d;
+}
+#adminmenu {
+  position: fixed;
+  top: 0;
+  bottom: -120px;
+  z-index: 1;
+  background-color: #23282d;
+}
+#adminmenu .pure-menu {
+  width: 160px;
+  margin-top: 40px;
+}
+#adminmenu .pure-menu .pure-menu-heading {
+  color: white;
+}
+#adminmenu .pure-menu .pure-menu-link {
+  color: white;
+  background-color: #23282d;
+}
+#adminmenu .pure-menu .pure-menu-link:hover {
+  color: #00b9eb;
+  background: #191e23;
+}
+#adminmenu .pure-menu .pure-menu-list .pure-menu-list {
+  display: none;
+  background-color: #32373c;
+}
+#adminmenu .pure-menu .pure-menu-list .pure-menu-list .pure-menu-link {
+  background-color: #32373c;
+}
+#adminmenu .menu-current {
+  background: #0073aa;
+}
+#content {
+  margin-left: 160px;
+  margin-top: 40px;
+}
+#wrap {
+  margin-top: 100px;
+  margin-left: 25px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}

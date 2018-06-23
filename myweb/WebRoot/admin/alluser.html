@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="../css/pure-min.css">
+    <link rel="stylesheet" href="../css/allarticle.css">
+</head>
+
+<body>
+    <div id="top-column">
+    </div>
+    <div id="adminmenu">
+        <div class="pure-menu">
+            <span class="pure-menu-heading">控制台</span>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link">文章</a>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">所有文章</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">写文章</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">分类目录</a></li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link">图片库</a>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">所有图片</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">添加</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">分类标签</a></li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link">留言</a>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">所有留言</a></li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link">用户</a>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">所有用户</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="wrap">
+            <h1>用户</h1>
+            <div class="pure-menu pure-menu-horizontal">
+                <a href="#" class="pure-menu-heading pure-menu-link" style="padding:3px;">全部（4）</a> |
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link" style="padding:5px;">已审批（3）</a></li> |
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link" style="padding:5px;">回收站（1）</a></li>
+                </ul>
+            </div>
+            <table class="pure-table pure-table-horizontal" style="width:80%;text-align:center;margin-top:10px;margin-bottom:15px;">
+                <thead>
+                    <tr>
+                        <th style="width:50px;"><input type="checkbox"></th>
+                        <th>用户名</th>
+                        <th>邮箱</th>
+                        <th>简介</th>
+                        <th style="width:100px;">时间</th>
+                        <th style="width:200px;">修改</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <td>Honda</td>
+                        <td>Accord</td>
+                        <td>Accord</td>
+                        <td>2009</td>
+                        <td><a href="">编辑</a>&emsp;|&emsp;<a href="">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <td>Toyota</td>
+                        <td>Camry</td>
+                        <td>Accord</td>
+                        <td>2012</td>
+                        <td><a href="">编辑</a>&emsp;|&emsp;<a href="">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <td>Hyundai</td>
+                        <td>Elantra</td>
+                        <td>Accord</td>
+                        <td>2010</td>
+                        <td><a href="">编辑</a>&emsp;|&emsp;<a href="">删除</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="pure-button pure-button-primary" href="#">批量删除</a>
+        </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

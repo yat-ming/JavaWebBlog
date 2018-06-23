@@ -1,0 +1,89 @@
+#top-column {
+  height: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #23282d;
+}
+#top-column #top-column-left {
+  float: left;
+}
+#top-column #top-column-left a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+#top-column #top-column-left a:hover {
+  color: #1e6cd7;
+}
+#top-column #top-column-right {
+  float: right;
+}
+#adminmenu {
+  position: fixed;
+  top: 0;
+  bottom: -120px;
+  z-index: 1;
+  background-color: #23282d;
+}
+#adminmenu .pure-menu {
+  width: 160px;
+  margin-top: 40px;
+}
+#adminmenu .pure-menu .pure-menu-heading {
+  color: white;
+}
+#adminmenu .pure-menu .pure-menu-link {
+  color: white;
+  background-color: #23282d;
+}
+#adminmenu .pure-menu .pure-menu-link:hover {
+  color: #00b9eb;
+  background: #191e23;
+}
+#adminmenu .pure-menu .pure-menu-list .pure-menu-list {
+  display: none;
+  background-color: #32373c;
+}
+#adminmenu .pure-menu .pure-menu-list .pure-menu-list .pure-menu-link {
+  background-color: #32373c;
+}
+#adminmenu .menu-current {
+  background: #0073aa;
+}
+#content {
+  margin-left: 160px;
+  margin-top: 40px;
+}
+#wrap {
+  margin-top: 100px;
+  margin-left: 25px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+form {
+  margin-right: 320px;
+}
+.fabu {
+  float: right;
+  margin-right: -295px;
+  width: 270px;
+  border: 1px solid #7e7e7e;
+}
+.fabu h2 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 5px;
+  border-bottom: 1px solid #a1a1a1;
+}
+.fabu .inside {
+  padding: 5px;
+}
